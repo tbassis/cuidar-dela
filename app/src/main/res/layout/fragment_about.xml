@@ -4,54 +4,118 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <RelativeLayout
+    <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-        <TextView
-                android:id="@+id/text_about"
-                style="@style/SectionHeader"
-                android:text="@string/app_name"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
 
-        <TextView
-                android:id="@+id/text_about_p1"
-                style="@style/SectionBody"
-                android:layout_below="@+id/text_about"
-                android:text="@string/about_app_p1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/text_about"
+                    style="@style/SectionHeader"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/app_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-                android:id="@+id/text_about_p2"
-                style="@style/SectionBody"
-                android:layout_below="@id/text_about_p1"
-                android:text="@string/about_app_p2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/text_about_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_about"
+                    android:text="@string/about_app_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-                android:id="@+id/text_about_p3"
-                style="@style/SectionBody"
-                android:layout_below="@id/text_about_p2"
-                android:text="@string/about_app_p3"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/text_about_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@id/text_about_p1"
+                    android:text="@string/about_app_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-                android:id="@+id/text_about_p4"
-                style="@style/SectionBody"
-                android:layout_below="@id/text_about_p3"
-                android:text="@string/about_app_p4"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                    android:id="@+id/text_about_p3"
+                    style="@style/SectionBody"
+                    android:layout_below="@id/text_about_p2"
+                    android:text="@string/about_app_p3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-    </RelativeLayout>
+            <TextView
+                    android:id="@+id/text_about_p4"
+                    style="@style/SectionBody"
+                    android:layout_below="@id/text_about_p3"
+                    android:text="@string/about_app_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/text_ela"
+                    style="@style/SectionHeader"
+                    android:layout_below="@id/text_about_p4"
+                    android:layout_marginTop="8sp"
+                    android:text="@string/about_ela"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/text_ela_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_ela"
+                    android:text="@string/about_ela_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/text_ela_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_ela_p1"
+                    android:text="@string/about_ela_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/text_ela_p3"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_ela_p2"
+                    android:text="@string/about_ela_p3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/text_ela_p4"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_ela_p3"
+                    android:text="@string/about_ela_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/text_ela_p5"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_ela_p4"
+                    android:text="@string/about_ela_p5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

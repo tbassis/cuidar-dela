@@ -24,23 +24,71 @@
 
 
     <!-- About menu texts-->
-    <string name="about_app_p1">O <b>Cuidar dEla</b> tem como objetivo disponibilizar
-    ferramentas e informações, por meio de um aplicativo móvel, para cuidadores e familiares de
+    <string name="about_app_p1">
+        O <b>Cuidar dEla</b> tem como objetivo disponibilizar
+        ferramentas e informações, por meio de um aplicativo móvel, para cuidadores e familiares de
         pacientes com <b>Esclerose Lateral Amiotrófica (ELA)</b>.</string>
 
-    <string name="about_app_p2">O aplicativo contem informações gerais sobre os cuidados paliativos
-    destinados, pode ser usado como diário de orientações recebidas após a alta do paciente ou
-    após a consultas com os especialistas, como também servir para lembrar todos os compromissos
-    envolvendo o paciente.</string>
+    <string name="about_app_p2">
+        O aplicativo contem informações gerais sobre os cuidados paliativos
+        destinados, pode ser usado como diário de orientações recebidas após a alta do paciente ou
+        após a consultas com os especialistas, como também servir para lembrar todos os compromissos
+        envolvendo o paciente.
+    </string>
 
-    <string name="about_app_p3">Este projeto foi desenvolvido dentro da <b>Universidade de Pernambuco
-    (UPE)</b> como projeto de conclusão de curso de um aluno do curso de engenharia da computação
-    da <b>Escola Politécnica de Pernambuco (POLI)</b> junto a uma doutoranda em enfermagem da
-    <b>Faculdade de Enfermagem Nossa Senhora das Graças (FENSG)</b>."</string>
+    <string name="about_app_p3">
+        Este projeto foi desenvolvido dentro da <b>Universidade de Pernambuco (UPE)</b> como projeto
+        de conclusão de curso de um aluno do curso de engenharia da computação da <b>Escola
+        Politécnica de Pernambuco (POLI)</b> junto a uma doutoranda em enfermagem da <b>Faculdade de
+        Enfermagem Nossa Senhora das Graças (FENSG)</b>."
+    </string>
 
-    <string name="about_app_p4">Além de ser distribuído gratuitamenta na <i>Play Store</i> este
-    projeto possui o código aberto e pode ser baixado no link
-    <link>https://github.com/tbassis/cuidar-dela</link></string>
+    <string name="about_app_p4">
+        Além de ser distribuído gratuitamenta na <i>Play Store</i> este projeto possui o código
+        aberto e pode ser baixado no link <link>https://github.com/tbassis/cuidar-dela</link>.
+    </string>
 
+    <string name="about_ela">Esclerose Lateral Amiotrófica</string>
+
+    <string name="about_ela_p1">
+        A Esclerose Lateral Amiotrófica é uma doença progressiva do neurônio motor, é ocasionada
+        pela degeneração e morte dos neurônios motores superiores e inferiores.
+        O seu tratamento tem como objetivo controlar dos principais sintomas,  como  insuficiência
+        respiratória, salivação excessiva,  instabilidade  emocional, distúrbios   do   sono,
+        alteração da força  muscular, dor,  fadiga e a  constipação  crônica
+    </string>
+
+    <string name="about_ela_p2">
+        Esse controle das sintomatologias, também é visualizado no conceito
+        dos cuidados paliativos que foi definido pela Organização Mundial de Saúde (OMS) em 1990
+        atualizado em 2002, como o assistência realizada por equipe multidisciplinar, com o intuito
+        de melhor a qualidade de vida do paciente e de suas famílias, frente a uma doença que
+        provoque  ameaça a vida, tem como objetivo identificar precocemente a patologia,
+        proporcionar o alívio do sofrimento e tratamento de dor, dos sintomas físicos, psicológicos
+        e espirituais e sociais.
+    </string>
+
+    <string name="about_ela_p3">
+        Os cuidados paliativos quando considerados adequados se preocupa com as necessidades do
+        paciente e da sua família como um todo. As orientações sobre os cuidados podem ser
+        modificadas de acordo com a necessidade do paciente, porém essas alterações terapêuticas só
+        podem ser realizada diante da atuação da equipe multiprofissional, com comunicação efetiva
+        entre os profissionais e a família.
+    </string>
+
+    <string name="about_ela_p4">
+        Assim os cuidados paliativos é uma alternativa para os pacientes que estão em estágios
+        avançados de ELA, compreendendo de forma ampla as necessidades físicas e psicológicas.
+    </string>
+
+    <string name="about_ela_p5">
+        Ao realizar os cuidados paliativos em casa é possível compreender as potencialidades e
+        fragilidades das famílias, os medicamentos que o paciente faz uso e os hospitais ou
+        especialistas que frequentam. É importante entender que não é simples realizar os cuidados
+        paliativos no domicílio, pois este não se resume apenas a executar tarefas, mas compreender
+        os aspectos biopsicossocial que envolvem o cuidar. Ao mesmo tempo é um espaço de educação
+        permanente que envolve o cuidado integral e humanizado, visando a melhoria da qualidade de
+        vida do paciente e de familiares.
+    </string>
 
 </resources>
