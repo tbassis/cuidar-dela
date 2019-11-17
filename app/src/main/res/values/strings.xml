@@ -13,6 +13,7 @@
     <string name="menu_care">Cuidados preventivos</string>
     <string name="menu_pathology">Orientações patologia</string>
     <string name="menu_nurcing">Orientações enfermagem</string>
+    <string name="menu_about">Sobre</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
@@ -20,4 +21,26 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+
+    <!-- About menu texts-->
+    <string name="about_app_p1">O <b>Cuidar dEla</b> tem como objetivo disponibilizar
+    ferramentas e informações, por meio de um aplicativo móvel, para cuidadores e familiares de
+        pacientes com <b>Esclerose Lateral Amiotrófica (ELA)</b>.</string>
+
+    <string name="about_app_p2">O aplicativo contem informações gerais sobre os cuidados paliativos
+    destinados, pode ser usado como diário de orientações recebidas após a alta do paciente ou
+    após a consultas com os especialistas, como também servir para lembrar todos os compromissos
+    envolvendo o paciente.</string>
+
+    <string name="about_app_p3">Este projeto foi desenvolvido dentro da <b>Universidade de Pernambuco
+    (UPE)</b> como projeto de conclusão de curso de um aluno do curso de engenharia da computação
+    da <b>Escola Politécnica de Pernambuco (POLI)</b> junto a uma doutoranda em enfermagem da
+    <b>Faculdade de Enfermagem Nossa Senhora das Graças (FENSG)</b>."</string>
+
+    <string name="about_app_p4">Além de ser distribuído gratuitamenta na <i>Play Store</i> este
+    projeto possui o código aberto e pode ser baixado no link
+    <link>https://github.com/tbassis/cuidar-dela</link></string>
+
+
 </resources>
