@@ -68,6 +68,10 @@
     
 
     <!-- Nurcing menu texts -->
+    <string name="nurcing_prep_med">
+        O preparo do medicamento em pacientes com sonda enteral
+    </string>
+
     <string name="nurcing_prep_med_p1">
         Os pacientes que usam sonda nasoenteral, cateter gastrostomia ou jejunostomia, a primeira
         opção são medicamentos em solução, caso não seja possível, é indicado a diluição dos

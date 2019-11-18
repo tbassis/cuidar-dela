@@ -17,7 +17,43 @@
                     style="@style/SectionHeader"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="8dp"
-                    android:text="sdsdsodksodksodksodksodkskodksod"
+                    android:text="@string/nurcing_prep_med"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/nurcing_prep_med_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_nurcing"
+                    android:text="@string/nurcing_prep_med_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/nurcing_prep_med_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/nurcing_prep_med_p1"
+                    android:text="@string/nurcing_prep_med_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/nurcing_prep_med_p3"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/nurcing_prep_med_p2"
+                    android:text="@string/nurcing_prep_med_p3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/nurcing_prep_med_p4"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/nurcing_prep_med_p3"
+                    android:text="@string/nurcing_prep_med_p4"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
