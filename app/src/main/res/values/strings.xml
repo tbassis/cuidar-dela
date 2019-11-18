@@ -23,7 +23,15 @@
     <string name="menu_send">Send</string>
 
 
-    <!-- Care menu texts -->
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CARE MENU TEXTS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
+    <!--
+    >>>>>>  CARE TEXT SKIN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
     <string name="care_skin">Orientações quanto ao cuidado com a pele</string>
 
     <string name="care_skin_p1">
@@ -49,14 +57,125 @@
 
     <string name="care_skin_p4">
         Os cuidados com o estoma vem desde a instalação correta da bolsa coletora com o intuito de
-        evitar vazamentos, diminuir odores e proteger a pele, podem ser utilizados também cremes que servem como barreira de proteção. A higiene da bolsa também é algo essência, esta precisa ser retirada sem causar rupturas na pele, a pele necessita ser lavada com sabão neutro e água morna, eliminando todos os resíduos, secar bem a pele antes de instalar a nova bolsa, assim a pele peristomal estará saudável e integra
+        evitar vazamentos, diminuir odores e proteger a pele, podem ser utilizados também cremes que
+        servem como barreira de proteção. A higiene da bolsa também é algo essência, esta precisa
+        ser retirada sem causar rupturas na pele, a pele necessita ser lavada com sabão neutro e
+        água morna, eliminando todos os resíduos, secar bem a pele antes de instalar a nova bolsa,
+        assim a pele peristomal estará saudável e integra.
     </string>
 
+    <!--
+    >>>>>>  CARE TEXT AIRWAYS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
 
+    <string name="care_airways">Cuidados com as vias aéreas</string>
 
-    <!-- Pathology menu texts -->
+    <string name="care_airways_p1">
+        Durante a mudança climática é muito comum que as narinas fiquem ressecadas, assim é
+        importante realizar a lavagem nasal que proporciona deixar as narinas e a região orofaríngea
+        úmidas e limpas, essa ação pode ser realizada com a colocação de 10 ml de soro fisiológico
+        em cada narina 01 vez ao dia pela manhã, em locais mais frios a frequência pode ser
+        aumentada para mais uma vez a noite. Esta ação previne as infecções respiratórias, como as
+        sinusites, faringites e traqueítes. É importante lembrar que manter a boa e língua limpa,
+        também previne tais infecções.
+    </string>
+
+    <string name="care_airways_p2">
+        Há pacientes que utilizam o BI-PAP ou BI-LEVEL que são equipamentos que contém uma máscara
+        nasal, oronasal ou facial, esta ventilação não invasiva- VNI são indicadas em alguns casos,
+        pode iniciar com 04 horas por dia o que já proporciona um descanso para a musculatura
+        respiratória, há pacientes que podem utilizar até por 16 horas, o uso desta evita as
+        traqueostomias. Vale ressaltar que os pacientes que utilizam por um tempo mais prolongado,
+        o cuidador precisa está atento para a bateria.
+    </string>
+
+    <string name="care_airways_p3">
+        Nos pacientes que já estão com a traqueostomia, os cuidadores precisam está atentos ao tipo
+        de cânula e ao cuff (balonete) para que possa evitar lesões provocadas pela pressão do
+        balonete na traqueia. Estes pacientes podem utilizar respirador e precisa está atento para
+        a bateria (DORÇA).
+    </string>
+
+    <string name="care_airways_p4">
+        Os pacientes com Traqueostomia necessitam ser aspirados com a utilização de cateter (sonda)
+        iniciando após a introdução na região da traqueia com duração em menos de 15 segundos e para
+        retirá-la deve ser realizado movimentos circulares, que permite a limpeza e evita danos a
+        mucosa. Esta sonda pode ser utilizada para aspiração nasal e oral e em seguida deve ser
+        descartada.
+    </string>
+
+    <string name="care_airways_p5">
+        Em alguns casos é necessário realizar a fluidificação para poder conseguir aspirar as
+        secreções mais espessas, com a utilização de pequena quantidade de soro fisiológico
+        (10-20 ml), pode-se também associar com a utilização do ambu.
+    </string>
+
+    <!--
+    >>>>>>  CARE TEXT ENTERAL PROBES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
+    <string name="care_probe">Cuidados com as sondas enterais</string>
+
+    <string name="care_probe_p1">
+        As sondas enterais são de diferentes  tipos,  tamanhos e comprimentos,  pode  ser inserida
+        no paciente por várias vias e colocada em diferentes locais do trato gastrointestinal, a
+        escolha da  sonda  depende do  tempo  que  o  paciente  precisará utiliza-la.
+    </string>
+
+    <string name="care_probe_p2">
+        A sonda enteral é utilizada para administração de alimentos e medicamentos em pacientes que
+        estão no ambiente hospitalar, ambulatorial ou domiciliar. Os pacientes que as utiliza,
+        precisam ser acompanhados a nível ambulatorial,   com a intensão de realizar a   supervisão
+        da sonda,   o controle   e   a   qualidade  medicamentos  que é administrada por ela, como
+        também para acompanhamento nutricional.
+    </string>
+
+    <!--
+    >>>>>>  CARE TEXT FALL PREVENTION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
+    <string name="care_fall_prev">Prevenção de quedas</string>
+
+    <string name="care_fall_prev_p1">
+        A prevenção a quedas pode ser realizada com adaptações no domicílio, tais como a inclusão
+        de corrimão, alças de apoio, elevação ou rebaixamento das camas, adequações no sanitário
+        redimensionando os espaços para uma melhor adaptação do familiar, facilitando assim o
+        trabalho do cuidador/familiar.
+    </string>
+
+    <string name="care_fall_prev_p2">
+        Sabe-se que quando o paciente tem dificuldade de deambulação ou utiliza cadeiras de roda
+        e/ou de banho é necessária uma maior atenção nos cuidados de higiene pessoal, bem como
+        requer um maior esforço físico do cuidador.
+    </string>
+
+    <string name="care_fall_prev_p3">
+        Há fatores intrínsecos (do próprio paciente) que predispõe a ocorrência de quedas, como as
+        mudanças fisiológicas que são naturais do processo de envelhecimento humano, as alterações
+        nos sistemas cardíaco, sensorial, nervoso, muscular e esquelético, dentre estes
+        destacando-se as alterações da visão, audição, olfato, marcha, o que implica na coordenação
+        motora e no declínio do tempo de reação.
+    </string>
+
+    <string name="care_fall_prev_p4">
+        O uso de vários medicamentos também requer atenção, pois podem provocar quedas, devido as
+        interações medicamentosas e aos efeitos colaterais. Os pacientes que tem déficit visual e
+        auditivo tem grande probabilidade de sofrer quedas.
+    </string>
+
+    <string name="care_fall_prev_p5">
+        Por isso é importante pensar quais são as adaptações que podem ser realizadas no domicílio
+        para evitar as quedas nos pacientes com ELA.
+    </string>
+
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  PATHOLOGY MENU TEXTS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
     <string name="pathology">Esclerose Lateral Amiotrófica</string>
-    
+
     <string name="text_pathology_p1">
         A Esclerose Lateral Amiotrófica é uma doença progressiva do neurônio motor, é ocasionada
         pela degeneração e morte dos neurônios motores superiores e inferiores.
@@ -64,7 +183,7 @@
         respiratória, salivação excessiva,  instabilidade  emocional, distúrbios   do   sono,
         alteração da força  muscular, dor,  fadiga e a  constipação  crônica
     </string>
-    
+
     <string name="text_pathology_p2">
         Esse controle das sintomatologias, também é visualizado no conceito
         dos cuidados paliativos que foi definido pela Organização Mundial de Saúde (OMS) em 1990
@@ -74,7 +193,7 @@
         proporcionar o alívio do sofrimento e tratamento de dor, dos sintomas físicos, psicológicos
         e espirituais e sociais.
     </string>
-    
+
     <string name="text_pathology_p3">
         Os cuidados paliativos quando considerados adequados se preocupa com as necessidades do
         paciente e da sua família como um todo. As orientações sobre os cuidados podem ser
@@ -82,7 +201,7 @@
         podem ser realizada diante da atuação da equipe multiprofissional, com comunicação efetiva
         entre os profissionais e a família.
     </string>
-    
+
     <string name="text_pathology_p4">
         Assim os cuidados paliativos é uma alternativa para os pacientes que estão em estágios
         avançados de ELA, compreendendo de forma ampla as necessidades físicas e psicológicas.
@@ -97,13 +216,19 @@
         permanente que envolve o cuidado integral e humanizado, visando a melhoria da qualidade de
         vida do paciente e de familiares.
     </string>
-    
 
 
-    <!-- Nurcing menu texts -->
-    <string name="nurcing_prep_med">
-        O preparo do medicamento em pacientes com sonda enteral
-    </string>
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>NURCING MENU TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
+    <!--
+    >>>>>> NURCING TEXT DRUG PREPARATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
+    <string name="nurcing_prep_med">O preparo do medicamento em pacientes com sonda enteral</string>
 
     <string name="nurcing_prep_med_p1">
         Os pacientes que usam sonda nasoenteral, cateter gastrostomia ou jejunostomia, a primeira
@@ -134,10 +259,40 @@
         de diluição.
     </string>
 
+    <!--
+    >>>>>> NURCING TEXT FIRST AID <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
 
+    <string name="first_aid">Primeiros socorros</string>
 
+    <string name="first_aid_p1">
+        Durante o engasgo pode o cuidador inicialmente pode levar o seu dedo a boca do paciente com
+        ELA e tentar retirar o alimento que provocou o fato, caso não seja efetivo, pode realizar a
+        manobra de Heimlich que consiste no cuidador se posicionar atrás do paciente, ambos em pé,
+        abraça-lo pelas costas e aperta-lo com os braços próximo acima da cicatriz umbilical com a
+        mão fechada e com o polegar para dentro, realizar movimentos rápidos em forma de J 5 vezes.
+    </string>
 
-    <!-- About menu texts -->
+    <string name="first_aid_p2">
+        O estímulo à tosse também ajuda a desengasgar, é feita a insuflação do ambu acoplado a
+        máscara oronasal e posteriormente é realizado um impulso abdominal (quando se empurra o
+        abdômen superior) ao mesmo tempo que a glote se abre. A tosse manualmente assistida é bem
+        mais sucedida quando o paciente é cooperativo. A exalação (eliminação do ar) aumenta quando
+        se empurra o abdômen superior ou a parede do tórax, estimulando assim a tosse.
+    </string>
+
+    <string name="first_aid_p3">
+        Assim esse estímulo da tosse contribui para a melhoria da qualidade de vida dos pacientes e
+        reduz a mortalidade. Caso essas manobras não sejam efetivas, chamar o Serviço de Atendimento
+        médico de Urgência – SAMU, pelo telefone 192.
+    </string>
+
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ABOUT MENU TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
     <string name="about_app_p1">
         O <b>Cuidar dEla</b> tem como objetivo disponibilizar
         ferramentas e informações, por meio de um aplicativo móvel, para cuidadores e familiares de
@@ -160,49 +315,6 @@
     <string name="about_app_p4">
         Além de ser distribuído gratuitamenta na <i>Play Store</i> este projeto possui o código
         aberto e pode ser baixado no link <link>https://github.com/tbassis/cuidar-dela</link>.
-    </string>
-
-    <string name="about_ela">Esclerose Lateral Amiotrófica</string>
-
-    <string name="about_ela_p1">
-        A Esclerose Lateral Amiotrófica é uma doença progressiva do neurônio motor, é ocasionada
-        pela degeneração e morte dos neurônios motores superiores e inferiores.
-        O seu tratamento tem como objetivo controlar dos principais sintomas,  como  insuficiência
-        respiratória, salivação excessiva,  instabilidade  emocional, distúrbios   do   sono,
-        alteração da força  muscular, dor,  fadiga e a  constipação  crônica
-    </string>
-
-    <string name="about_ela_p2">
-        Esse controle das sintomatologias, também é visualizado no conceito
-        dos cuidados paliativos que foi definido pela Organização Mundial de Saúde (OMS) em 1990
-        atualizado em 2002, como o assistência realizada por equipe multidisciplinar, com o intuito
-        de melhor a qualidade de vida do paciente e de suas famílias, frente a uma doença que
-        provoque  ameaça a vida, tem como objetivo identificar precocemente a patologia,
-        proporcionar o alívio do sofrimento e tratamento de dor, dos sintomas físicos, psicológicos
-        e espirituais e sociais.
-    </string>
-
-    <string name="about_ela_p3">
-        Os cuidados paliativos quando considerados adequados se preocupa com as necessidades do
-        paciente e da sua família como um todo. As orientações sobre os cuidados podem ser
-        modificadas de acordo com a necessidade do paciente, porém essas alterações terapêuticas só
-        podem ser realizada diante da atuação da equipe multiprofissional, com comunicação efetiva
-        entre os profissionais e a família.
-    </string>
-
-    <string name="about_ela_p4">
-        Assim os cuidados paliativos é uma alternativa para os pacientes que estão em estágios
-        avançados de ELA, compreendendo de forma ampla as necessidades físicas e psicológicas.
-    </string>
-
-    <string name="about_ela_p5">
-        Ao realizar os cuidados paliativos em casa é possível compreender as potencialidades e
-        fragilidades das famílias, os medicamentos que o paciente faz uso e os hospitais ou
-        especialistas que frequentam. É importante entender que não é simples realizar os cuidados
-        paliativos no domicílio, pois este não se resume apenas a executar tarefas, mas compreender
-        os aspectos biopsicossocial que envolvem o cuidar. Ao mesmo tempo é um espaço de educação
-        permanente que envolve o cuidado integral e humanizado, visando a melhoria da qualidade de
-        vida do paciente e de familiares.
     </string>
 
 </resources>

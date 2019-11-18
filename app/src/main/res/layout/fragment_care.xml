@@ -12,6 +12,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
+            <!-- SKIN CARE -->
             <TextView
                     android:id="@+id/text_care"
                     style="@style/SectionHeader"
@@ -53,6 +54,18 @@
                     style="@style/SectionBody"
                     android:layout_below="@+id/text_care_skin_p3"
                     android:text="@string/care_skin_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- PROBE CARE -->
+
+            <TextView
+                    android:id="@+id/text_care_probe"
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="8sp"
+                    android:text="@string/care_probe"
+                    android:layout_below="@+id/text_care_skin_p4"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
