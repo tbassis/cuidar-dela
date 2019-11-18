@@ -29,10 +29,10 @@
             tools:layout="@layout/fragment_share" />
 
     <fragment
-            android:id="@+id/nav_send"
-            android:name="com.poli.tulioassis.cuidardela.ui.send.SendFragment"
-            android:label="@string/menu_send"
-            tools:layout="@layout/fragment_send" />
+            android:id="@+id/nav_pathology"
+            android:name="com.poli.tulioassis.cuidardela.ui.pathology.PathologyFragment"
+            android:label="@string/menu_pathology"
+            tools:layout="@layout/fragment_pathology" />
 
     <fragment
             android:id="@+id/nav_nurcing"
