@@ -12,6 +12,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
+            <!--
+            - TEXT DRUG PREPARATION
+            -->
+
             <TextView
                     android:id="@+id/text_nurcing"
                     style="@style/SectionHeader"
@@ -58,6 +62,48 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
+
+            <!--
+            - TEXT FIRST AID
+            -->
+
+            <TextView
+                    android:id="@+id/text_first_aid"
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="8sp"
+                    android:text="@string/nurcing_first_aid"
+                    android:layout_below="@+id/nurcing_prep_med_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/first_aid_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_first_aid"
+                    android:text="@string/first_aid_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/first_aid_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/first_aid_p1"
+                    android:text="@string/first_aid_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/first_aid_p3"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/first_aid_p2"
+                    android:text="@string/first_aid_p3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            
         </RelativeLayout>
 
     </ScrollView>
