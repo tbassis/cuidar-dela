@@ -58,14 +58,155 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-            <!-- PROBE CARE -->
+
+            <!--
+            - AIRWAYS CARE
+            -->
+
+            <TextView
+                    android:id="@+id/care_airways"
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="8sp"
+                    android:text="@string/care_airways"
+                    android:layout_below="@+id/text_care_skin_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_airways_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_airways"
+                    android:text="@string/care_airways_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_airways_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_airways_p1"
+                    android:text="@string/care_airways_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_airways_p3"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_airways_p2"
+                    android:text="@string/care_airways_p3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_airways_p4"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_airways_p3"
+                    android:text="@string/care_airways_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_airways_p5"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_airways_p4"
+                    android:text="@string/care_airways_p5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            <!--
+            - PROBE CARE
+            -->
 
             <TextView
                     android:id="@+id/text_care_probe"
                     style="@style/SectionHeader"
                     android:layout_marginTop="8sp"
                     android:text="@string/care_probe"
-                    android:layout_below="@+id/text_care_skin_p4"
+                    android:layout_below="@+id/care_airways_p5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_probe_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/text_care_probe"
+                    android:text="@string/care_probe_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_probe_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_probe_p1"
+                    android:text="@string/care_probe_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <!--
+            - FALL CARE
+            -->
+
+            <TextView
+                    android:id="@+id/care_fall_prev"
+                    style="@style/SectionHeader"
+                    android:layout_marginTop="8sp"
+                    android:text="@string/care_fall_prev"
+                    android:layout_below="@+id/care_probe_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_fall_prev_p1"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_fall_prev"
+                    android:text="@string/care_fall_prev_p1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_fall_prev_p2"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_fall_prev_p1"
+                    android:text="@string/care_fall_prev_p2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_fall_prev_p3"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_fall_prev_p2"
+                    android:text="@string/care_fall_prev_p3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_fall_prev_p4"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_fall_prev_p3"
+                    android:text="@string/care_fall_prev_p4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                    android:id="@+id/care_fall_prev_p5"
+                    style="@style/SectionBody"
+                    android:layout_below="@+id/care_fall_prev_p4"
+                    android:text="@string/care_fall_prev_p5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
