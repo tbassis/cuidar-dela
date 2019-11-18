@@ -56,7 +56,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="nav_send">
+                  <entry key="nav_pathology">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -90,11 +90,6 @@
                           </Point>
                         </option>
                       </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="nav_tools">
-                    <value>
-                      <LayoutPositions />
                     </value>
                   </entry>
                 </map>

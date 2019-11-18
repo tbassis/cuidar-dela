@@ -23,10 +23,10 @@
             tools:layout="@layout/fragment_slideshow" />
 
     <fragment
-            android:id="@+id/nav_share"
-            android:name="com.poli.tulioassis.cuidardela.ui.share.ShareFragment"
-            android:label="@string/menu_share"
-            tools:layout="@layout/fragment_share" />
+            android:id="@+id/nav_care"
+            android:name="com.poli.tulioassis.cuidardela.ui.care.CareFragment"
+            android:label="@string/menu_care"
+            tools:layout="@layout/fragment_care" />
 
     <fragment
             android:id="@+id/nav_pathology"

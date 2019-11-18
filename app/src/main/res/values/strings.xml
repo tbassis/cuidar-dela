@@ -22,6 +22,38 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
+
+    <!-- Care menu texts -->
+    <string name="care_skin">Orientações quanto ao cuidado com a pele</string>
+
+    <string name="care_skin_p1">
+        Os cuidados com a pele perpassam desde a hidratação que pode ser realiza com cremes, óleos,
+        hidratantes ou emolientes, à alimentação rica em proteína, bem como a ingesta hídrica
+        adequada que também são fatores de prevenção à lesões na pele. Outras formas de cuidados
+        podem ser adotadas, como evitar banhos em água quente, visualizar frequentemente como está
+        a pele, reduzir a exposição à umidades com a troca de fraldas frequentes.
+    </string>
+
+    <string name="care_skin_p2">
+        O rompimento da pele causadas pelo paciente está frequentemente exposto a uma única posição,
+        são chamadas lesões pressão, estas podem ser evitadas com a utilização de colchões  casca de
+        ovo, d’ água, espumas, mudar o paciente de posição a cada 2 horas, manter a cabeceira do
+        leito em um ângulo de 30º, utilizar lençóis de algodão e sempre bem esticados e evitar
+        pressão e massagens nas proeminências ósseas. Evitando assim as lesões por pressão.
+    </string>
+
+    <string name="care_skin_p3">
+        Para iniciar os cuidados com a pele peristomal se faz necessário está atento para os sinais
+        de alerta: surgimento de hematomas, perfusão tissular diminuída, risco de sangramentos.
+    </string>
+
+    <string name="care_skin_p4">
+        Os cuidados com o estoma vem desde a instalação correta da bolsa coletora com o intuito de
+        evitar vazamentos, diminuir odores e proteger a pele, podem ser utilizados também cremes que servem como barreira de proteção. A higiene da bolsa também é algo essência, esta precisa ser retirada sem causar rupturas na pele, a pele necessita ser lavada com sabão neutro e água morna, eliminando todos os resíduos, secar bem a pele antes de instalar a nova bolsa, assim a pele peristomal estará saudável e integra
+    </string>
+
+
+
     <!-- Pathology menu texts -->
     <string name="pathology">Esclerose Lateral Amiotrófica</string>
     
@@ -66,6 +98,7 @@
         vida do paciente e de familiares.
     </string>
     
+
 
     <!-- Nurcing menu texts -->
     <string name="nurcing_prep_med">
