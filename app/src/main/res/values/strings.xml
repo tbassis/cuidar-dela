@@ -15,12 +15,34 @@
     <string name="menu_nurcing">Orientações enfermagem</string>
     <string name="menu_about">Sobre</string>
 
+    <string name="screen_add_medicine">Adicionar Medicamento</string>
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+    <string name="date_hint">dd/mm/aaaa</string>
+
+    <!-- activity_add_medicine.xml -->
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>  activity_add_medicine.xml <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+
+    <string name="add_medicine_label_nome">Nome</string>
+    <string name="add_medicine_name">Nome do medicamento</string>
+    <string name="add_medicine_label_refil">Refil</string>
+    <string name="add_medicine_label_dosagem">Dosagem</string>
+    <string name="add_medicine_dosage">Quantidade atual de dosagens</string>
+    <string name="add_medicine_refil_reminder">Lembrete de refil</string>
+    <string name="add_medicine_label_adm">Administração do medicamento</string>
+    <string name="add_medicine_label_inicio">Início</string>
+    <string name="add_medicine_label_fim">Fim</string>
+
 
 
     <!--
