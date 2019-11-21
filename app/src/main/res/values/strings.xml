@@ -17,16 +17,24 @@
 
     <string name="screen_add_medicine">Adicionar Medicamento</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-
     <string name="date_hint">dd/mm/aaaa</string>
 
-    <!-- activity_add_medicine.xml -->
+    <!-- activity_add_reminder.xml -->
+
+
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>  activity_add_reminder.xml <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+    
+    <string name="add_reminder_label_type">Tipo do lembrete</string>
+    <string name="add_reminder_spiner_type">Selecionar</string>
+    <string name="add_reminder_label_alarm">Tipo do alarme</string>
+    <string name="add_reminder_spiner_alarm">Selecionar tipo do alarme</string>
+
+    
+    
     <!--
     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>  activity_add_medicine.xml <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
