@@ -8,59 +8,43 @@
         android:fitsSystemWindows="true"
         tools:context=".AddMedicineActivity">
 
+
     <TextView
-            android:id="@+id/add_medicine_label_nome"
+            android:id="@+id/add_reminder_medicine_label1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
-            android:text="@string/add_medicine_label_nome"
+            android:text="@string/add_reminder_medicine_label1"
             android:textColor="#000000"
-            android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-            android:id="@+id/add_medicine_name"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+    <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/add_medicine_name"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_label_nome" />
-
-    <TextView
-            android:id="@+id/add_medicine_label_refil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:textColor="#000000"
-            android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_name"
-            tools:text="@string/add_medicine_label_refil" />
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label1" />
 
     <TextView
-            android:id="@+id/add_medicine_label_dosagem"
+            android:id="@+id/add_reminder_medicine_label2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="24dp"
-            android:text="@string/add_medicine_label_dosagem"
+            android:layout_marginTop="16dp"
+            android:text="@string/add_reminder_medicine_label2"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_label_refil" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
     <EditText
-            android:id="@+id/add_medicine_dosage"
+            android:id="@+id/add_reminder_medicine_dosage"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -70,57 +54,35 @@
             android:hint="@string/dosage_hint"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_label_dosagem" />
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label2" />
 
     <TextView
-            android:id="@+id/add_medicine_reminder_text"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/add_medicine_refil_reminder"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_dosage" />
-
-    <Switch
-            android:id="@+id/add_medicine_reminder_switch"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_dosage" />
-
-    <TextView
-            android:id="@+id/add_medicine_label_adm"
+            android:id="@+id/add_reminder_medicine_label3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="@string/add_medicine_label_adm"
+            android:text="@string/add_reminder_medicine_label3"
             android:textColor="#000000"
             android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_reminder_text" />
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_dosage" />
 
     <TextView
-            android:id="@+id/add_medicine_label_inicio"
-            android:layout_width="wrap_content"
+            android:id="@+id/add_reminder_medicine_label4"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
-            android:text="@string/add_medicine_label_inicio"
+            android:text="@string/add_reminder_medicine_label4"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_label_adm" />
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label3" />
 
     <EditText
-            android:id="@+id/add_medicine_date_begin"
+            android:id="@+id/editText3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -132,33 +94,79 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_label_inicio" />
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label5" />
 
     <TextView
-            android:id="@+id/add_medicine_label_fim"
+            android:id="@+id/add_reminder_medicine_label5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/add_reminder_medicine_label5"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <EditText
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:ems="10"
+            android:inputType="time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label4" />
+
+    <TextView
+            android:id="@+id/add_reminder_medicine_label6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
-            android:text="@string/add_medicine_label_fim"
+            android:text="@string/add_reminder_medicine_label6"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_date_begin" />
+            app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <EditText
-            android:id="@+id/add_medicine_date_end"
+            android:id="@+id/editText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             android:ems="10"
-            android:hint="@string/date_hint"
-            android:inputType="date"
+            android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_medicine_label_fim" />
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label6" />
 
+    <TextView
+            android:id="@+id/add_reminder_medicine_label7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/add_reminder_medicine_label7"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <EditText
+            android:id="@+id/editText4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:ems="10"
+            android:inputType="numberSigned"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_reminder_medicine_label7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
