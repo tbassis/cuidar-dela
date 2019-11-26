@@ -16,11 +16,22 @@
     <string name="menu_about">Sobre</string>
 
     <string name="screen_add_medicine">Adicionar Medicamento</string>
+    <string name="screen_edit_profile">Editar perfil</string>
 
     <string name="date_hint">dd/mm/aaaa</string>
     <string name="dosage_hint">Número de gotas ou comprimidos</string>
 
-    <!-- activity_add_reminder.xml -->
+    
+    <!--
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> fragment_profile.xml <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    -->
+    
+    <string name="profile_patient_name">Nome do paciente</string>
+    <string name="profile_patient_birthday">Data de nascimento</string>
+    <string name="profile_patient_age">Idade</string>
+    <string name="profile_patient_edit">Editar</string>
 
 
     <!--
