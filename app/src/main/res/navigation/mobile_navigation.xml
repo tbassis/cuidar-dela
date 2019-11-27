@@ -10,16 +10,13 @@
             android:id="@+id/nav_profile"
             android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileFragment"
             android:label="@string/menu_profile"
-            tools:layout="@layout/fragment_profile" >
-        <action
-                android:id="@+id/action_nav_profile_to_nav_profile_edit"
-                app:destination="@id/nav_profile_edit" />
-    </fragment>
-    <activity
+            tools:layout="@layout/fragment_profile" />
+
+    <dialog
             android:id="@+id/nav_profile_edit"
-            android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileActivity"
-            android:label="@string/screen_edit_profile"
-            tools:layout="@layout/activity_edit_profile" />
+            android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileEditFragment"
+            android:label="@string/profile_edit"
+            tools:layout="@layout/fragment_profile_edit"/>
 
     <fragment
             android:id="@+id/nav_care"
@@ -40,15 +37,9 @@
             tools:layout="@layout/fragment_nurcing" />
 
     <fragment
-            android:id="@+id/nav_about"
+            android:id="@+id/about_fragment"
             android:name="com.poli.tulioassis.cuidardela.ui.about.AboutFragment"
             android:label="@string/menu_about"
             tools:layout="@layout/fragment_about" />
-
-    <activity
-            android:id="@+id/nav_add_medicine"
-            android:name="com.poli.tulioassis.cuidardela.AddMedicineActivity"
-            android:label="@string/screen_add_medicine"
-            tools:layout="@layout/activity_add_medicine" />
 
 </navigation>

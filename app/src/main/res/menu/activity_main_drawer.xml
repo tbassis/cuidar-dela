@@ -29,7 +29,7 @@
             android:icon="@drawable/ic_menu_nurcing"
             android:title="@string/menu_nurcing" />
         <item
-            android:id="@+id/nav_about"
+            android:id="@+id/about_fragment"
             android:icon="@drawable/ic_menu_about"
             android:title="@string/app_name" />
 

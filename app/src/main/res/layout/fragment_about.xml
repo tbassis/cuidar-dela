@@ -5,59 +5,51 @@
         android:layout_height="match_parent">
 
     <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:id="@+id/about_text_scroll_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
+                android:id="@+id/about_text_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scrollbars="vertical">
 
             <TextView
-                    android:id="@+id/text_about"
+                    android:id="@+id/text_about_h1"
                     style="@style/SectionHeader"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="8dp"
-                    android:text="@string/app_name"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:text="@string/app_name" />
 
             <TextView
                     android:id="@+id/text_about_p1"
                     style="@style/SectionBody"
-                    android:layout_below="@+id/text_about"
-                    android:text="@string/about_app_p1"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:layout_below="@+id/text_about_h1"
+                    android:text="@string/text_about_p1" />
 
             <TextView
                     android:id="@+id/text_about_p2"
                     style="@style/SectionBody"
                     android:layout_below="@id/text_about_p1"
-                    android:text="@string/about_app_p2"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:text="@string/text_about_p2" />
 
             <TextView
                     android:id="@+id/text_about_p3"
                     style="@style/SectionBody"
                     android:layout_below="@id/text_about_p2"
-                    android:text="@string/about_app_p3"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:text="@string/text_about_p3" />
 
             <TextView
                     android:id="@+id/text_about_p4"
                     style="@style/SectionBody"
                     android:layout_below="@id/text_about_p3"
-                    android:text="@string/about_app_p4"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:text="@string/text_about_p4"
+                    android:layout_marginBottom="8dp"/>
 
         </RelativeLayout>
 
