@@ -59,8 +59,12 @@ class MainActivity : AppCompatActivity() {
             // Handle navigation view item clicks here.
             when (menuItem.itemId) {
 
+                R.id.nav_profile -> {
+                    navController.navigate(R.id.profileFragment)
+                }
+
                 R.id.nav_care -> {
-                    navController.navigate(R.id.careFragment)
+                    navController.popBackStack(R.id.careFragment, false)
                 }
 
                 R.id.nav_pathology -> {
