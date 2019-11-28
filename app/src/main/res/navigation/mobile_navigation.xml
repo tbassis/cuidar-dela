@@ -4,10 +4,10 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/mobile_navigation"
-        app:startDestination="@+id/nav_care">
+        app:startDestination="@+id/careFragment">
 
     <fragment
-            android:id="@+id/nav_profile"
+            android:id="@+id/profileFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileFragment"
             android:label="@string/menu_profile"
             tools:layout="@layout/fragment_profile" />
@@ -19,25 +19,25 @@
             tools:layout="@layout/fragment_profile_edit"/>
 
     <fragment
-            android:id="@+id/nav_care"
+            android:id="@+id/careFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.care.CareFragment"
             android:label="@string/menu_care"
             tools:layout="@layout/fragment_care" />
 
     <fragment
-            android:id="@+id/nav_pathology"
+            android:id="@+id/pathologyFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.pathology.PathologyFragment"
             android:label="@string/menu_pathology"
             tools:layout="@layout/fragment_pathology" />
 
     <fragment
-            android:id="@+id/nav_nurcing"
+            android:id="@+id/nurcingFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.nurcing.NurcingFragment"
             android:label="@string/menu_nurcing"
             tools:layout="@layout/fragment_nurcing" />
 
     <fragment
-            android:id="@+id/about_fragment"
+            android:id="@+id/aboutFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.about.AboutFragment"
             android:label="@string/menu_about"
             tools:layout="@layout/fragment_about" />

@@ -5,7 +5,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_profile"
+            android:id="@+id/profileFragment"
             android:icon="@drawable/ic_menu_profile"
             android:title="@string/menu_profile" />
         <item
@@ -17,19 +17,19 @@
             android:icon="@drawable/ic_menu_medicine"
             android:title="@string/menu_medicine" />
         <item
-            android:id="@+id/nav_care"
+            android:id="@+id/careFragment"
             android:icon="@drawable/ic_menu_care"
             android:title="@string/menu_care" />
         <item
-            android:id="@+id/nav_pathology"
+            android:id="@+id/pathologyFragment"
             android:icon="@drawable/ic_menu_pathology"
             android:title="@string/menu_pathology" />
         <item
-            android:id="@+id/nav_nurcing"
+            android:id="@+id/nurcingFragment"
             android:icon="@drawable/ic_menu_nurcing"
             android:title="@string/menu_nurcing" />
         <item
-            android:id="@+id/about_fragment"
+            android:id="@+id/aboutFragment"
             android:icon="@drawable/ic_menu_about"
             android:title="@string/app_name" />
 

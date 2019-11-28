@@ -1,6 +1,5 @@
 package com.poli.tulioassis.cuidardela
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -33,7 +32,11 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_profile, R.id.nav_care, R.id.nav_pathology,R.id.nav_nurcing, R.id.about_fragment
+                R.id.profileFragment,
+                R.id.careFragment,
+                R.id.pathologyFragment,
+                R.id.nurcingFragment,
+                R.id.aboutFragment
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
