@@ -14,6 +14,8 @@ import com.poli.tulioassis.cuidardela.R
 class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
     private val profileViewModel : ProfileViewModel by navGraphViewModels(R.id.mobile_navigation)
+
+
     
 
 }
