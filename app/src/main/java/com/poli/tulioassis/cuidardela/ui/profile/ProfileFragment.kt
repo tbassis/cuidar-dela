@@ -15,6 +15,10 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
     private val profileViewModel : ProfileViewModel by navGraphViewModels(R.id.mobile_navigation)
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
+
 
     
 

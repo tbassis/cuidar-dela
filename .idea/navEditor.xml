@@ -77,10 +77,19 @@
                             <option name="y" value="12" />
                           </Point>
                         </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_profileFragment_to_profileEditFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="reminderFragment">
+                  <entry key="remindersFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">

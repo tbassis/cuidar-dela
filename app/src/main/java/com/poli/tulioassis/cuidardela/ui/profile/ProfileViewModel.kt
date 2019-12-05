@@ -21,4 +21,3 @@ class ProfileViewModel(val app: Application) : AndroidViewModel(app) {
 
 }
 
-//fun editProfileButton(view: View)

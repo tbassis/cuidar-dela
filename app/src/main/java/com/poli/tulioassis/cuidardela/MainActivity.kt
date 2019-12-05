@@ -17,6 +17,7 @@ import androidx.appcompat.widget.Toolbar
 import android.view.View
 import androidx.core.view.GravityCompat
 import androidx.navigation.NavController
+import com.poli.tulioassis.cuidardela.ui.profile.ProfileViewModel
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }   //Configuration options for NavigationUI methods
     // that interact with implementations of the app bar pattern such as Toolbar,
     // CollapsingToolbarLayout, and ActionBar
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

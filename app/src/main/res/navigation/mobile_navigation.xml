@@ -10,9 +10,13 @@
             android:id="@+id/profileFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileFragment"
             android:label="@string/menu_profile"
-            tools:layout="@layout/fragment_profile" />
+            tools:layout="@layout/fragment_profile" >
+        <action
+                android:id="@+id/action_profileFragment_to_profileEditFragment"
+                app:destination="@id/profileEditFragment" />
+    </fragment>
 
-    <dialog
+    <fragment
             android:id="@+id/profileEditFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileEditFragment"
             android:label="@string/profile_edit"
