@@ -9,7 +9,7 @@
             android:icon="@drawable/ic_menu_profile"
             android:title="@string/menu_profile" />
         <item
-            android:id="@+id/nav_reminder"
+            android:id="@+id/nav_reminders"
             android:icon="@drawable/ic_menu_reminder"
             android:title="@string/menu_reminders" />
         <item

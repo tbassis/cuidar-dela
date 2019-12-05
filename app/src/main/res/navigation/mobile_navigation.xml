@@ -16,7 +16,14 @@
             android:id="@+id/profileEditFragment"
             android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileEditFragment"
             android:label="@string/profile_edit"
-            tools:layout="@layout/fragment_profile_edit"/>
+            tools:layout="@layout/fragment_profile_edit" />
+
+    <fragment
+            android:id="@+id/remindersFragment"
+            android:name="com.poli.tulioassis.cuidardela.ui.reminder.RemindersFragment"
+            android:label="@string/menu_reminders"
+            tools:layout="@layout/fragment_reminders" />
+
 
     <fragment
             android:id="@+id/careFragment"

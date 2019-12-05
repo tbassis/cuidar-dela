@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         AppBarConfiguration(
             setOf(
                 R.id.profileFragment,
+                R.id.remindersFragment,
                 R.id.careFragment,
                 R.id.pathologyFragment,
                 R.id.nurcingFragment,
@@ -72,6 +73,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
                 R.id.nav_profile -> {
                     navController.navigate(R.id.profileFragment)
+                }
+
+                R.id.nav_reminders -> {
+                    navController.navigate(R.id.remindersFragment)
                 }
 
                 R.id.nav_care -> {
