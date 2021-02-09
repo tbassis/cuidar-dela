@@ -1,6 +1,5 @@
 package com.poli.tulioassis.cuidardela
 
-import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.navigation.findNavController
@@ -17,7 +16,7 @@ import androidx.appcompat.widget.Toolbar
 import android.view.View
 import androidx.core.view.GravityCompat
 import androidx.navigation.NavController
-import com.poli.tulioassis.cuidardela.ui.profile.ProfileViewModel
+import com.poli.tulioassis.cuidardela.ui.patient.ProfileViewModel
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 

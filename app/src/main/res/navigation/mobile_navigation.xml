@@ -8,7 +8,7 @@
 
     <fragment
             android:id="@+id/profileFragment"
-            android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileFragment"
+            android:name="com.poli.tulioassis.cuidardela.ui.patient.ProfileFragment"
             android:label="@string/menu_profile"
             tools:layout="@layout/fragment_profile" >
         <action
@@ -18,7 +18,7 @@
 
     <fragment
             android:id="@+id/profileEditFragment"
-            android:name="com.poli.tulioassis.cuidardela.ui.profile.ProfileEditFragment"
+            android:name="com.poli.tulioassis.cuidardela.ui.patient.ProfileEditFragment"
             android:label="@string/profile_edit"
             tools:layout="@layout/fragment_profile_edit" />
 

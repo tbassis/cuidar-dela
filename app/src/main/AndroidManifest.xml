@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".AddMedicineActivity"></activity>
-        <activity android:name=".ui.profile.ProfileEditActivity"
+        <activity android:name=".ui.patient.ProfileEditActivity"
                 android:label="@string/profile_edit"
                 android:theme="@style/AppTheme.NoActionBar">
 

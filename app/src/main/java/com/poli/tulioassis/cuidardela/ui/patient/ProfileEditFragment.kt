@@ -1,4 +1,4 @@
-package com.poli.tulioassis.cuidardela.ui.profile
+package com.poli.tulioassis.cuidardela.ui.patient
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.navGraphViewModels
