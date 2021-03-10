@@ -16,7 +16,7 @@ import androidx.appcompat.widget.Toolbar
 import android.view.View
 import androidx.core.view.GravityCompat
 import androidx.navigation.NavController
-import com.poli.tulioassis.cuidardela.ui.patient.ProfileViewModel
+//import com.poli.tulioassis.cuidardela.ui.patient.ProfileViewModel
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
